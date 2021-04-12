@@ -1,0 +1,47 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  background: #2D2D93;
+  padding: 10px 0 10px 100px;
+
+}
+
+
+ul{
+list-style-type: none;
+margin-left: 25%;
+}
+
+li{
+  display: inline;
+  padding-right: 30px;
+}  
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+
+
+
+
+h1{
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+section{
+ margin: 5% 10%;
+}
+
+
+footer{
+  background: #2D2D93;
+  margin-top: 10em;
+  padding: 18px;
+  text-align: center;
+}
