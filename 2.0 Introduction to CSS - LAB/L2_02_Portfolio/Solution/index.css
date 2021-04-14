@@ -1,0 +1,117 @@
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F0F1F5;
+  font-family: Helvetica, sans-serif;
+}
+
+/* nav  */
+
+li {
+  display: inline-block;
+  width: 18%;
+  text-align: center;
+  height: 9em;
+  border-left: 3px solid white;
+  /* background-color: green; */
+}
+
+li:nth-child(1) {
+  border-left: 3px solid white;
+  margin-left: 13em;
+}
+
+li:nth-child(4) {
+  border-right: 3px solid white;
+}
+
+
+a {
+  color: #00D3D4;
+  text-decoration: none;
+}
+
+li i {
+  color: #00D3D4;
+  padding: 15px;
+  font-size: 30px;
+
+
+}
+
+/* main  */
+
+main section {
+  display: inline-block;
+  height: 36em;
+}
+
+main>section:nth-child(1) {
+  color: #b2b6c0;
+  background-color: #555c6f;
+  width: 40%;
+  float: left;
+}
+
+main>section:nth-child(1) h2{
+  padding:30px;
+}
+
+main>section:nth-child(1) div{
+    padding: 5px 30px 25px;
+}
+
+
+main>section:nth-child(1) div i {
+    margin-right: 15px;
+
+}
+
+main > section:nth-child(1) > p{
+
+  margin: 10em 2em;
+
+}
+
+
+main>section:nth-child(2) {
+  color:white;
+  background-color: #00D3D4;
+  width: 60%;
+  float: left;
+}
+
+
+
+
+
+main>section:nth-child(2)>article:nth-child(1) {
+  width: 40%;
+  float: left;
+  
+}
+
+main>section:nth-child(2)>article:nth-child(1) h2 {
+  width: 40%;
+  padding: 30px 30px 25px;
+}
+
+main>section:nth-child(2)>article:nth-child(1) p {
+  width: 80%;
+  padding: 5px 30px 10px;
+}
+
+
+
+
+main>section:nth-child(2)>article:nth-child(2)>img {
+  height: 16em;
+  border: 10px solid white;
+  float: right;
+  width: 18em;
+  margin: 4em;
+  
+}
