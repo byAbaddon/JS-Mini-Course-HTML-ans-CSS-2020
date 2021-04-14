@@ -1,0 +1,18 @@
+
+div {
+  background: gray;
+  width: 26%;
+  padding: 1.5em;
+  margin-left: 33%;
+}
+
+h3 {
+  text-align: center;
+  color: cadetblue;
+}
+
+
+li {
+  padding: 5px;
+  text-decoration-line:underline;
+}

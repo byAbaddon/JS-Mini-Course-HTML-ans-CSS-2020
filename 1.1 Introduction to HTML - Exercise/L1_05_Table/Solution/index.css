@@ -1,0 +1,30 @@
+table, td, tr, th {
+  border: 1px solid #000000;
+  border-collapse: collapse;  
+}
+
+td, th {
+  padding: 10px; 
+}
+
+.bold {
+  font-weight: bold;
+  text-align: center;
+}
+
+.result {
+  width: 400px;
+  text-align: right;
+  padding-right: 5px; 
+}
+
+
+
+tfoot tr td{
+  text-align-last: end;
+}
+
+table tbody tr td:nth-child(2){
+  text-align-last: end;
+}
+tbody:nth-child(2) > tr:nth-child(3) > td:nth-child(2)

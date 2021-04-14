@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: darkgray;
+  padding: 10px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin-left: 25%;
+ 
+}
+
+li {
+  display: inline;
+  margin: 0 1.5em 0 0;
+
+}
+
+a {
+  font-size: larger;
+  text-decoration: none;
+  font: bold;
+  color: green;
+}
+
+
+a:hover{
+  background-color: green;
+  color: wheat;
+  padding: 3px 0 3px 0;
+  border-radius: 5px;
+  transition: 0.35s all ease;
+}
+
