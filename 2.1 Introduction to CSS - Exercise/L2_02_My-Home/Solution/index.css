@@ -1,0 +1,62 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans, sans-serif;
+}
+
+article {
+  display: inline-block;
+  width: 20%;
+}
+
+
+header article {
+  border-left: 3px solid #656565;
+  padding: 1px 30px;
+  height: 105px;
+  margin-left: 20%;
+  margin-top: 3em;
+}
+
+header article h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+
+  letter-spacing: 8px;
+  font-size: xxx-large;
+  font-weight: 100;
+  margin: 0;
+}
+
+header article p {
+  color: #656565;
+  font-size: large;
+}
+
+
+/* main  */
+
+main article {
+  margin: 15px;
+}
+
+main article:nth-child(1){
+  margin-left: 21.5em;
+}
+
+main article p{
+  color: #656565;
+  font-size: larger;
+}
+
+main article img {
+  height: 284px;
+  width: 340px;
+}
+

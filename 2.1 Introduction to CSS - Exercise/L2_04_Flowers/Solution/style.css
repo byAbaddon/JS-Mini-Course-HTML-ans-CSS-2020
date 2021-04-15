@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans, sans-serif;
+  color: rgb(214, 116, 114);
+}
+
+
+/* header nav ------------------------------- */
+
+header nav {
+  height: 0px;
+}
+
+header nav ul {
+  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+}
+
+header nav ul li {
+  margin: 1em;
+  padding-left: 80px;
+  list-style-type: none;
+}
+
+header nav ul > li:nth-child(3) {
+
+  margin-right: 160px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(214, 116, 114);
+  font-weight: bold;
+}
+
+/* main =====================================*/
+
+/* first section --------------------  */
+
+.one {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(23 22 25)),
+    url('../Requirements-and-Resources/Images/header-flower.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 71em;
+}
+
+/* article one-------------------------  */
+.one article h1 {
+  text-align: center;
+  color: white;
+  font-size: xxx-large;
+  padding-top: 10em;
+}
+
+.one article p {
+  color: white;
+  text-align: center;
+  width: 30%;
+  margin-left: 33em;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: large;
+}
+
+/* article two----------------------------  */
+.one article:nth-child(2) {
+  background-color: #D67472
+}
+
+.one article:nth-child(2) h1 {
+  text-align: center;
+  color: white;
+  font-size: xxx-large;
+  padding-top: 2em;
+}
+
+.one article:nth-child(2)p {
+  color: white;
+  text-align: center;
+  width: 30%;
+  margin-left: 33em;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: large;
+}
+
+
+.one article:nth-child(2) button {
+  background-color: white;
+  color: #D67472;
+  border: none;
+  border-radius: 5px;
+  padding: 14px;
+  font-weight: bold;
+  margin: 2em 0 5em 60em;
+  cursor: pointer;
+}
+
+
+/* second section -------------------------------  */
+
+/* article one  ---------- */
+.two {
+  height: 30em;
+  margin-top: 5em;
+}
+
+.two article:nth-child(1) h1 {
+  text-align: center;
+  color: black;
+  font-size: x-large;
+  padding-top: 2em;
+}
+
+.two article:nth-child(2) {   
+  text-align: center;
+  margin-top: 3em;
+}
+
+.two article:nth-child(2) img:nth-child(2) {
+  margin: 0 14em;
+}
+
+/* article two */
+
+.two article:nth-child(3) div {
+  width: 17%;
+  display: inline-block;
+  text-align: center;
+  color: black;
+}
+
+.two article:nth-child(3) div:nth-child(1) {
+  margin-left: 26em;
+}
+
+.two article:nth-child(3) div p {
+ color:grey;
+}
+
+
+/* footer    */
+
+footer{
+  background-color: rgb(214, 116, 114);
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  color: white;
+} 
+
